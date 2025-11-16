@@ -72,13 +72,6 @@ zentrack-ai/
 
 ---
 
----
-
-## ▶️ Demo Notebook
-Open this file to run the simulation:
-
----
-
 Running it generates:
 - Habit tracking simulation  
 - Daily/weekly summary  
