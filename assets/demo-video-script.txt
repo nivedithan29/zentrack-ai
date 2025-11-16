@@ -1,0 +1,24 @@
+Zentrack AI — 3-Minute Demo Video Script
+
+INTRO (0:00–0:10)
+"Hi, I'm Niveditha, and this is Zentrack AI — a personal habit and wellness assistant designed to help people stay consistent with their daily routines."
+
+PROBLEM (0:10–0:30)
+"Building healthy habits is difficult. We forget, skip days, or lose motivation. Zentrack AI solves this by giving smart reminders, tracking habits, and providing weekly insights."
+
+WHY AGENTS (0:30–0:50)
+"I used a multi-agent architecture so each agent handles a specific responsibility — reminders, tracking, summarizing, and recommending. This creates a more intelligent and flexible system."
+
+ARCHITECTURE (0:50–1:20)
+(Show the ASCII diagram or a clean graphic)
+"Here is how Zentrack AI works: The Onboarding Agent collects habits. The Scheduler Agent plans reminders. The Reminder Agent interacts with the user. The Tracker Agent stores progress in memory. The Summary Agent generates weekly reports, and the Recommendation Agent gives personalized habit advice."
+
+DEMO (1:20–2:20)
+(Show notebook running)
+"In the Kaggle notebook, I simulate 14 days of user behavior. You can see reminders, daily habit status, and the completion rate chart. The system exports CSV files and logs metrics for observability."
+
+BUILD (2:20–2:40)
+"I built this using multi-agent systems, memory bank, custom tools, scheduling logic, and code execution tools. Everything is modular and easy to extend."
+
+CLOSING (2:40–3:00)
+"Thank you for watching! This is Zentrack AI — helping people stay healthy, one habit at a time."
