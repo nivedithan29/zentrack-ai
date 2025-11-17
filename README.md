@@ -1,39 +1,41 @@
-# Zentrack AI
-### Your Personal Habit & Wellness Multi-Agent System
+# 🌟 Zentrack AI  
+### 🧘‍♀️ Your Personal Habit & Wellness Multi-Agent System  
 
-Zentrack AI is a multi-agent system designed to help users build and maintain healthy daily habits. It automates reminders, tracks actions, generates summaries, and provides intelligent habit recommendations.
-
----
-
-## Why Zentrack AI?
-
-Most people struggle with consistency. We forget habits, skip routines, or lose motivation. Manual tracking becomes tiring and inconsistent.
-
-Zentrack AI solves this by:
-- Automatically scheduling reminders
-- Tracking behavior (done / skipped / snoozed)
-- Summarizing daily and weekly progress
-- Providing personalized recommendations
-- Maintaining long-term memory
+Zentrack AI is a multi-agent system designed to help users build and maintain healthy daily habits.  
+It automates reminders, tracks actions, generates summaries, and provides intelligent habit recommendations.  
 
 ---
 
-## Key Features
+## 💡 Why Zentrack AI?
 
-- Automated habit reminders  
-- Daily behavior simulation  
-- Summary generation (per-day and weekly)  
-- Personalized recommendations  
-- Long-term memory storage  
-- Observability logs  
-- CSV export for analysis  
-- 14-day simulation via Kaggle Notebook  
+Most people struggle with consistency.  
+We forget habits, skip routines, or lose motivation. Manual tracking becomes tiring and inconsistent.  
+
+Zentrack AI solves this by:  
+- 🕒 Automatically scheduling reminders  
+- ✔ Tracking behavior (done / skipped / snoozed)  
+- 📊 Summarizing daily & weekly progress  
+- 🎯 Providing personalized recommendations  
+- 🧠 Maintaining long-term memory  
 
 ---
 
-## Multi-Agent Architecture
+## 🔑 Key Features
 
-(ASCII diagram)
+- ⏰ Automated habit reminders  
+- 🔁 Daily behavior simulation  
+- 📆 Weekly & daily summary generation  
+- 🤖 Personalized recommendation engine  
+- 💾 Long-term memory storage  
+- 📈 Observability logs  
+- 📥 CSV export for analysis  
+- 🧪 14-day simulation via Kaggle Notebook  
+
+---
+
+## 🏗 Multi-Agent Architecture
+
+(ASCII Diagram)
 
                  ┌──────────────────────┐
                  │      User Input       │
@@ -69,61 +71,81 @@ Zentrack AI solves this by:
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
+```
 zentrack-ai/
-- README.md
-- notebook/
-- src/
-- assets/
+├─ README.md
+├─ notebook/
+│   └─ Zentrack_AI_Demo.ipynb
+├─ src/
+│   ├─ agents/
+│   ├─ memory/
+│   ├─ tools/
+│   └─ demo/
+└─ assets/
+```
 
 ---
 
-## How to Run Locally
+## ▶️ How to Run Locally
 
-1. Clone the repository
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/nivedithan29/zentrack-ai.git
 cd zentrack-ai
+```
 
-2. Run the demo simulation
+### 2️⃣ Run the demo simulation
+
+```bash
 python -m src.demo.run_simulation
+```
 
-
----
-
-## Example Output
-
-Summary (sample):
-- Overall completion: 57.14%
-- Completed: 24
-- Skipped: 11
-- Snoozed: 7
-
-Recommendation (sample):
-"Good start! Try reducing targets for the hardest habit or adjusting reminder times."
+This will generate:  
+- 🎯 14-day habit simulation  
+- 📊 METRIC logs  
+- 📈 Summary report  
+- 💡 Recommendation  
+- 📂 CSV export (`demo_habit_history.csv`)  
 
 ---
 
-## Technologies Used
+## 📊 Example Output
 
-- Python
-- Pandas
-- Multi-agent architecture
-- Custom tools (CSV Exporter, Metrics Logger)
-- Memory Bank
-- Kaggle Notebook
+### Summary (sample)
+- ✔ Overall completion: **57.14%**  
+- ✔ Completed: **24**  
+- ❌ Skipped: **11**  
+- 💤 Snoozed: **7**  
 
----
-
-## Future Enhancements
-
-- UI or mobile app
-- Push notifications
-- Google Fit integration
-- Habit trend visualization
-- Deployment using Agent Engine
+### Recommendation (sample)
+💬 *"Good start! Try reducing targets for the hardest habit or adjusting reminder times."*
 
 ---
 
-## License
-MIT License
+## 🛠 Technologies Used
+
+- 🐍 Python  
+- 📘 Pandas  
+- 🤖 Multi-agent architecture  
+- 🧰 Custom tools (CSV Exporter, Metrics Logger)  
+- 🗄 Memory Bank  
+- 🧪 Kaggle Notebook  
+
+---
+
+## 🔮 Future Enhancements
+
+- 📱 Mobile or Web UI  
+- 🔔 Push notifications  
+- 🏃 Google Fit integration  
+- 📉 Habit trend visualization  
+- ☁ Deployment using Agent Engine  
+
+---
+
+## 📜 License
+
+MIT License  
