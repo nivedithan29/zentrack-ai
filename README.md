@@ -1,28 +1,40 @@
 # Zentrack AI
-### *Your Personal Habit & Wellness Agent*
+### Your Personal Habit & Wellness Multi-Agent System
 
-Zentrack AI is a multi-agent system designed to help users build and maintain healthy daily habits. It uses automated reminders, tracking, weekly summaries, and personalized recommendations to support long-term wellness.
-
----
-
-## 🚀 Why Zentrack AI?
-People struggle with consistency. We forget habits, skip routines, or lose motivation.  
-Zentrack AI solves this by acting like a personal habit coach that actively tracks, reminds, evaluates, and recommends improvements.
+Zentrack AI is a multi-agent system designed to help users build and maintain healthy daily habits. It automates reminders, tracks actions, generates summaries, and provides intelligent habit recommendations.
 
 ---
 
-## 🧠 Features
-- Daily habit tracking (done, skipped, snoozed)
-- Smart reminders and scheduling
-- Weekly insight reports
-- Personalized habit suggestions
-- Long-term memory storage
-- CSV export for analysis
-- Demo simulation using Kaggle Notebook
+## Why Zentrack AI?
+
+Most people struggle with consistency. We forget habits, skip routines, or lose motivation. Manual tracking becomes tiring and inconsistent.
+
+Zentrack AI solves this by:
+- Automatically scheduling reminders
+- Tracking behavior (done / skipped / snoozed)
+- Summarizing daily and weekly progress
+- Providing personalized recommendations
+- Maintaining long-term memory
 
 ---
 
-## 🏗 Multi-Agent Architecture
+## Key Features
+
+- Automated habit reminders  
+- Daily behavior simulation  
+- Summary generation (per-day and weekly)  
+- Personalized recommendations  
+- Long-term memory storage  
+- Observability logs  
+- CSV export for analysis  
+- 14-day simulation via Kaggle Notebook  
+
+---
+
+## Multi-Agent Architecture
+
+(ASCII diagram)
+
                  ┌──────────────────────┐
                  │      User Input       │
                  └───────────┬───────────┘
@@ -57,47 +69,61 @@ Zentrack AI solves this by acting like a personal habit coach that actively trac
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 zentrack-ai/
-├─ README.md
-├─ notebook/
-│ └─ Zentrack_AI_Demo.ipynb
-├─ src/
-│ ├─ agents/
-│ ├─ memory/
-│ ├─ tools/
-│ └─ demo/
-└─ assets/
+- README.md
+- notebook/
+- src/
+- assets/
 
 ---
 
-Running it generates:
-- Habit tracking simulation  
-- Daily/weekly summary  
-- Completion rate chart  
-- Exported CSV files  
+## How to Run Locally
+
+1. Clone the repository
+git clone https://github.com/nivedithan29/zentrack-ai.git
+cd zentrack-ai
+
+2. Run the demo simulation
+python -m src.demo.run_simulation
+
 
 ---
 
-## 🛠 Tools & Technologies
-- Python  
-- Pandas, Matplotlib  
-- Multi-Agent System  
-- Sessions + Memory Bank  
-- Custom tools (CSV export, metrics logger)  
-- Kaggle Notebook  
+## Example Output
+
+Summary (sample):
+- Overall completion: 57.14%
+- Completed: 24
+- Skipped: 11
+- Snoozed: 7
+
+Recommendation (sample):
+"Good start! Try reducing targets for the hardest habit or adjusting reminder times."
 
 ---
 
-## 🌱 Future Enhancements
-- Mobile app integration  
-- Google Fit / Health API syncing  
-- Push notifications  
-- Social habit challenges  
-- More intelligent recommendation system  
+## Technologies Used
+
+- Python
+- Pandas
+- Multi-agent architecture
+- Custom tools (CSV Exporter, Metrics Logger)
+- Memory Bank
+- Kaggle Notebook
 
 ---
 
-## 📜 License
+## Future Enhancements
+
+- UI or mobile app
+- Push notifications
+- Google Fit integration
+- Habit trend visualization
+- Deployment using Agent Engine
+
+---
+
+## License
 MIT License
